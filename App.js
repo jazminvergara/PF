@@ -24,11 +24,11 @@ export default function App() {
           }}
         >
           <Stack.Screen 
-            name="MealsCategories" 
+            name="Genero de videojuegos" 
             component={CategoriesScreen}
           />
           <Stack.Screen 
-            name="MealsOverview" 
+            name="Vista del juego" 
             component={MealsOverviewScreen}
             options={{
               title: 'All categories',
@@ -37,7 +37,7 @@ export default function App() {
             }} 
           />
           <Stack.Screen 
-            name="MealDetail" 
+            name="Detalles del juego" 
             component={MealDetailScree} 
           />
 

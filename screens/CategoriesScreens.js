@@ -7,7 +7,7 @@ function CategoriesScreen({navigation}) {
 
     function renderCategoryItem(itemData) {
         function pressHandler() {
-            navigation.navigate('MealsOverview', {
+            navigation.navigate('Vista del juego', {
                 categoryId: itemData.item.id
             })
         }
