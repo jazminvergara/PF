@@ -2,11 +2,11 @@ import Category from '../models/category';
 import Meal from '../models/meal';
 
 export const CATEGORIES = [
-  new Category('c1', 'Italian', '#f5428d'),
-  new Category('c2', 'Quick & Easy', '#f54242'),
-  new Category('c3', 'Hamburgers', '#f5a442'),
-  new Category('c4', 'German', '#f5d142'),
-  new Category('c5', 'Light & Lovely', '#368dff'),
+  new Category('c1', 'Survival Horror', '#f5428d'),
+  new Category('c2', 'Accion y Aventura', '#f54242'),
+  new Category('c3', 'Fighter', '#f5a442'),
+  new Category('c4', 'Battle Royale', '#f5d142'),
+  new Category('c5', 'Match 3', '#368dff'),
   new Category('c6', 'Exotic', '#41d95d'),
   new Category('c7', 'Breakfast', '#9eecff'),
   new Category('c8', 'Asian', '#b9ffb0'),
@@ -18,10 +18,10 @@ export const MEALS = [
   new Meal(
     'm1',
     ['c1', 'c2'],
-    'Spaghetti with Tomato Sauce',
-    'affordable',
+    'Resident Evil 4',
+    '2007',
     'simple',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+    'https://image.api.playstation.com/vulcan/ap/rnd/202010/0501/ph4tgwDaQqHkj84fKrGjye8D.png',
     20,
     [
       '4 Tomatoes',
@@ -49,10 +49,10 @@ export const MEALS = [
   new Meal(
     'm2',
     ['c2'],
-    'Toast Hawaii',
-    'affordable',
+    'Super Mario Bros',
+    '1985',
     'simple',
-    'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+    'https://www.nintendo.com/eu/media/images/10_share_images/games_15/virtual_console_nintendo_3ds_7/SI_3DSVC_SuperMarioBros_image1600w.jpg',
     10,
     [
       '1 Slice White Bread',
@@ -75,10 +75,10 @@ export const MEALS = [
   new Meal(
     'm3',
     ['c3'],
-    'Classic Hamburger',
-    'pricey',
+    'Guilty Gear Strive',
+    '2021',
     'simple',
-    'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+    'https://www.fantasymundo.com/wp-content/uploads/2021/07/Guilty-Gear-Strive-portada.jpg',
     45,
     [
       '300g Cattle Hack',
@@ -104,10 +104,10 @@ export const MEALS = [
   new Meal(
     'm4',
     ['c4'],
-    'Wiener Schnitzel',
+    'Call of Duty: Warzone',
     'luxurious',
     'challenging',
-    'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+    'https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp',
     60,
     [
       '8 Veal Cutlets',
@@ -136,11 +136,11 @@ export const MEALS = [
 
   new Meal(
     'm5',
-    ['c2', 'c5', 'c10'],
-    'Salad with Smoked Salmon',
-    'luxurious',
+    ['c3'],
+    'The Black Heart',
+    '2009',
     'simple',
-    'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+    'https://static.wikia.nocookie.net/mugen/images/a0/04/Black_Heart_Cover_Art.jpg/revision/latest?cb=20110515143420',
     15,
     [
       'Arugula',
@@ -307,11 +307,11 @@ export const MEALS = [
   ),
   new Meal(
     'm10',
-    ['c2', 'c5', 'c10'],
-    'Asparagus Salad with Cherry Tomatoes',
+    ['c5', 'c10'],
+    'Candy Crush Saga',
     'luxurious',
     'simple',
-    'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+    'https://www.king.com/images/share/banners/candycrush.png?_v=kmoqjd',
     30,
     [
       'White and Green Asparagus',
